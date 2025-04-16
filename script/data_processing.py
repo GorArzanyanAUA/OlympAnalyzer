@@ -165,7 +165,7 @@ def collect_unique_names():
 # ========== MAIN FUNCTION ==========
 def main():
     print("🚀 Starting data processing pipeline...\n")
-    # download_pdfs()
+    download_pdfs()
     convert_pdfs_to_csv()
     add_gender_and_filter_unknowns()
     collect_unique_names()

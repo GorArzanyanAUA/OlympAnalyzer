@@ -1,10 +1,3 @@
 id,surname,name,fathername,grade,region,school,score,gender,source_file
 130999,ԱԱԱԱԱԱԱ,ԲԲԲԲԲ,ԳԳԳԳԳ,9,Արմավիր,ԱԱԱԱԲԲԲԲԳԳԳ,13,unknown,Ard-HLezu-Armavir-DP25.csv
-110545,Շահինյան,Չինար,Արսենի,12,Արագածոտն,Ապարանի ֆիզմաթ ա/դ,15,unknown,Ard-HLezu-Aragacotn-DP25.csv
 150942,Մագթաղյան,Է,լեն,9,Լոռի,Կուրթանի մ/դ,7,unknown,Ard-HLezu-Lori-DP25.csv
-400250,Դավթյան,Ջուլիան,Արսենի,9,Երևան,90 հմ/դ,11,unknown,Ard-Patm-Yerevan-DP25.csv
-200294,Դավթյան,Ջուլիան,Արսենի,9,Երևան,90 հմ/դ,8,unknown,Ard-Fizika-Yerevan-DP25.csv
-210178,Շահինյան,Չինար,Արսենի,12,Արագածոտն,Ապարանի ֆիզմաթ ա/դ,10,unknown,Ard-Fizika-Aragacotn-DP25.csv
-122148,Համզոյան,Չինար,Ալիկի,10,Արարատ,Արարատ գ. թիվ 3,մ/դ,unknown,Cucak-Ararat-Math25-DP-1.csv
-111543,Շահինյան,Չինար,Արսենի,12,Արագածոտն,Ապարանի ֆիզմաթ,ա/դ,unknown,Cucak-Aragatsotn-Math25-DP-1.csv
-103118,Փիլոյան,Վալերյա,Գոռի,6,Երևան,84,հմ/դ,unknown,Cucak-Yerevan-Math25-DP-1.csv
