@@ -1,0 +1,9 @@
+{
+    "id": 1,
+    "description": "Girls participate more in extracurricular activities (Olympiads) than boys in 2025",
+    "z_statistic": -214.98409083439708,
+    "p_value": 1.0,
+    "observed_female_proportion": 0.0,
+    "expected_female_proportion": 0.4652,
+    "conclusion": "Fail to reject the null hypothesis"
+}

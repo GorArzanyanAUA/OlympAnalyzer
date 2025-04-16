@@ -26,7 +26,7 @@ def calculate_statistics(data_csv_base):
         for file in files:
             if file.endswith(".csv"):
                 filepath = os.path.join(root, file)
-                print(f"\n📄 Processing: {file}")
+                print(f"📄 Processing: {file}")
                 try:
                     df = pd.read_csv(filepath)
                     
@@ -70,8 +70,9 @@ def calculate_statistics(data_csv_base):
                     print(f"Error processing {file}: {e}")
 
     # Save the calculated statistics to a new JSON file
+    output_folder = "/home/student/Desktop/Statistics Project/analyses/"
     output_file = "calculated_statistics.json"
-    with open(output_file, "w") as f:
+    with open(output_folder+output_file, "w") as f:
         json.dump(statistics, f, indent=4)
 
     print(f"✅ Statistics calculated and saved to {output_file}")
