@@ -13,7 +13,12 @@ subject_pages = {
     "https://olymp.am/hy/node/1164": "armenian25",
     "https://olymp.am/hy/node/1226": "english25",
     "https://olymp.am/hy/node/1220": "history25",
-    "https://olymp.am/hy/node/1166": "chemistry25"
+    "https://olymp.am/hy/node/1166": "chemistry25",
+
+    "https://www.olymp.am/hy/node/616": "math19",
+    "https://www.olymp.am/hy/node/618": "physics19",
+    
+
 }
 
 data_pdf_base = "/home/student/Desktop/Statistics Project/data/data_pdf"
