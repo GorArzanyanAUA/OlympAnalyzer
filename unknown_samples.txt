@@ -1,3 +1,0 @@
-id,surname,name,fathername,grade,region,school,score,gender,source_file
-130999,ԱԱԱԱԱԱԱ,ԲԲԲԲԲ,ԳԳԳԳԳ,9,Արմավիր,ԱԱԱԱԲԲԲԲԳԳԳ,13,unknown,Ard-HLezu-Armavir-DP25.csv
-150942,Մագթաղյան,Է,լեն,9,Լոռի,Կուրթանի մ/դ,7,unknown,Ard-HLezu-Lori-DP25.csv
