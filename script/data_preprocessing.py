@@ -7,19 +7,15 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from names import armenian_female_names, armenian_male_names
 # ========== CONFIGURATION ==========
-subject_pages = {
+subject_pages_25 = {
     "https://olymp.am/hy/node/1141": "math25",
     "https://olymp.am/hy/node/1175": "physics25",
     "https://olymp.am/hy/node/1164": "armenian25",
     "https://olymp.am/hy/node/1226": "english25",
     "https://olymp.am/hy/node/1220": "history25",
     "https://olymp.am/hy/node/1166": "chemistry25",
-
-    "https://www.olymp.am/hy/node/616": "math19",
-    "https://www.olymp.am/hy/node/618": "physics19",
-    
-
 }
+
 
 data_pdf_base = "/home/student/Desktop/Statistics Project/data/data_pdf"
 data_csv_base = "/home/student/Desktop/Statistics Project/data/data_csv"
@@ -40,7 +36,7 @@ def classify_name(name):
 
 def download_pdfs():
     os.makedirs(data_pdf_base, exist_ok=True)
-    for url, subject in subject_pages.items():
+    for url, subject in subject_pages_25.items():
         subject_pdf_dir = os.path.join(data_pdf_base, subject)
         os.makedirs(subject_pdf_dir, exist_ok=True)
         print(f"\n📄 Scraping PDF links for: {subject}")
