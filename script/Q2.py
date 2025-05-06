@@ -2,8 +2,8 @@ import math
 from scipy.stats import norm
 
 # Data - You need to replace these values with the actual numbers from your dataset
-total_students = 53133  # Total number of students
-students_in_stem = 38127  # Number of students interested in STEM subjects
+total_students = 59911  # Total number of students
+students_in_stem = 38022  # Number of students interested in STEM subjects
 
 # Null hypothesis value for p0
 p0 = 0.5

@@ -89,7 +89,7 @@ def plot_non_stem_participation(regions, non_stem_girls_total, non_stem_boys_tot
 # Main function to load data and plot the charts
 def main():
     # File path to the JSON file with statistics
-    file_path = '/home/student/Desktop/Statistics Project/analyses/calculated_statistics_with_subject_region_gender.json'  # Update this path
+    file_path = '/home/student/Desktop/Statistics Project/analyses/second_statistics.json'  # Update this path
     statistics = load_statistics(file_path)
 
     # Extract regions and corresponding participation data for STEM and Non-STEM subjects

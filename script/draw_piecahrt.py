@@ -25,18 +25,18 @@ def plot_pie_chart(stem_participants, non_stem_participants, save_path='stem_non
     plt.show()
 
 # Total 
-non_stem_participants = 21993  # Use your actual sum from the statistics
-stem_participants = 38127  # Use your actual sum from the statistics
+non_stem_participants = 21889  
+stem_participants = 38022  
 
 
 # # Yerevan
-# non_stem_participants = 4705  # Use your actual sum from the statistics
-# stem_participants = 11605  # Use your actual sum from the statistics
+# non_stem_participants = 4705  
+# stem_participants = 11605  
 
 
 # # Region
-# non_stem_participants = 17288  # Use your actual sum from the statistics
-# stem_participants = 26522  # Use your actual sum from the statistics
+# non_stem_participants = 17288  
+# stem_participants = 26522  
 
 # Call the function to plot the pie chart
 plot_pie_chart(stem_participants, non_stem_participants)

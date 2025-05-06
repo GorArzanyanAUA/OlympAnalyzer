@@ -21,17 +21,17 @@ region_population = {
 
 # Given observed olympiad participation by region
 observed_participation = {
-    "Yerevan": 16316,
-    "Aragatsotn": 3039,
-    "Ararat": 4868,
-    "Gegharkunik": 4863,
-    "Kotayk": 7074,
-    "Lori": 5522,
-    "Shirak": 5155,
-    "Syunik": 4015,
+    "Yerevan": 16310,
+    "Aragatsotn": 3038,
+    "Ararat": 4863,
+    "Gegharkunik": 4862,
+    "Kotayk": 7073,
+    "Lori": 5516,
+    "Shirak": 5149,
+    "Syunik": 4014,
     "Vayots Dzor": 1517,
-    "Tavush": 3020,
-    "Armavir": 4562
+    "Tavush": 3014,
+    "Armavir": 4555
 }
 
 # Total population across regions and total olympiad participants
